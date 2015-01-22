@@ -3,7 +3,8 @@ get_feature_cols <- function() {
   features <- read.table("UCI HAR Dataset/features.txt")
   
   # extract feature names for columns, we don't need the row numbers here
-  cols <- as.character(features$V2)
+  # remove parenthesis and replace hyphenated or comma separated words with camelCase
+  cols <- gsub("[()]","",gsub("(-|,)(.)","\\U\\2",as.character(features$V2),perl=TRUE),perl=TRUE)
   return(cols)
 }
 
@@ -36,8 +37,11 @@ part_one_and_four <- function() {
 
 mean_std_cols <- function(cols) {
   # get only column names that have a mean or stddev of a measurement
-  return(cols[grepl("mean|std",cols)])
+  subcols <- cols[grepl("Mean|mean|std",cols,perl=TRUE)]
+  # do not use the "BodyBody" error columns or the angle columns at the end
+  return(subcols[1:40])
 }
+
 part_two <- function(data) {
   # get the feature names
   cols <- get_feature_cols()
@@ -94,4 +98,4 @@ run_analysis <- function() {
   return(summary_data)
 }
 
-run_analysis()
+run_analysis_data <- run_analysis()

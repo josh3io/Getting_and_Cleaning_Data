@@ -1,326 +1,290 @@
-DATA DICTIONARY - GETTING AND CLEANING DATA COURSE PROJECT
+DATA DICTIONARY  GETTING AND CLEANING DATA COURSE PROJECT
 
 subject
 
-    identifier of device user
+    identifier of device user whose activity was measured
 
 activity
 
     activity being performed by subject for which measurements apply
 
-tBodyAcc-mean()-X
+tBodyAccMeanX
 
     mean of mean over time of body linear accelerometer in X axis measurements
 
-tBodyAcc-mean()-Y
+tBodyAccMeanY
 
     mean of mean over time of body linear accelerometer in Y axis measurements
 
-tBodyAcc-mean()-Z
+tBodyAccMeanZ
 
     mean of mean over time of body linear accelerometer in Z axis measurements
 
-tBodyAcc-std()-X
+tBodyAccStdX
 
     mean of standard deviations of body linear accelerometer in X axis measurements
 
-tBodyAcc-std()-Y
+tBodyAccStdY
 
     mean of standard deviations of body linear accelerometer in Y axis measurements
 
-tBodyAcc-std()-Z
+tBodyAccStdZ
 
     mean of standard deviations of body linear accelerometer in Z axis measurements
 
-tGravityAcc-mean()-X
+tGravityAccMeanX
 
     mean of mean over time of gravity linear accelerometer in X axis measurements
 
-tGravityAcc-mean()-Y
+tGravityAccMeanY
 
     mean of mean over time of gravity linear accelerometer in Y axis measurements
 
-tGravityAcc-mean()-Z
+tGravityAccMeanZ
 
     mean of mean over time of gravity linear accelerometer in Z axis measurements
 
-tGravityAcc-std()-X
+tGravityAccStdX
 
     mean of standard deviations of gravity linear accelerometer in X axis measurements
 
-tGravityAcc-std()-Y
+tGravityAccStdY
 
     mean of standard deviations of gravity linear accelerometer in Y axis measurements
 
-tGravityAcc-std()-Z
+tGravityAccStdZ
 
     mean of standard deviations of gravity linear accelerometer in Z axis measurements
 
-tBodyAccJerk-mean()-X
+tBodyAccJerkMeanX
 
     mean of mean over time of body jerk accelerometer in X axis measurements
 
-tBodyAccJerk-mean()-Y
+tBodyAccJerkMeanY
 
     mean of mean over time of body jerk accelerometer in Y axis measurements
 
-tBodyAccJerk-mean()-Z
+tBodyAccJerkMeanZ
 
     mean of mean over time of body jerk accelerometer in Z axis measurements
 
-tBodyAccJerk-std()-X
+tBodyAccJerkStdX
 
     mean of standard deviations of body jerk accelerometer in X axis measurements
 
-tBodyAccJerk-std()-Y
+tBodyAccJerkStdY
 
     mean of standard deviations of body jerk accelerometer in Y axis measurements
 
-tBodyAccJerk-std()-Z
+tBodyAccJerkStdZ
 
     mean of standard deviations of body jerk accelerometer in Z axis measurements
 
-tBodyGyro-mean()-X
+tBodyGyroMeanX
 
     mean of mean over time of body gyroscope in X axis measurements
 
-tBodyGyro-mean()-Y
+tBodyGyroMeanY
 
     mean of mean over time of body gyroscope in Y axis measurements
 
-tBodyGyro-mean()-Z
+tBodyGyroMeanZ
 
     mean of mean over time of body gyroscope in Z axis measurements
 
-tBodyGyro-std()-X
+tBodyGyroStdX
 
     mean of standard deviations of body gyroscope in X axis measurements
 
-tBodyGyro-std()-Y
+tBodyGyroStdY
 
     mean of standard deviations of body gyroscope in Y axis measurements
 
-tBodyGyro-std()-Z
+tBodyGyroStdZ
 
     mean of standard deviations of body gyroscope in Z axis measurements
 
-tBodyGyroJerk-mean()-X
+tBodyGyroJerkMeanX
 
     mean of mean over time of body gyroscope jerk in X axis measurements
 
-tBodyGyroJerk-mean()-Y
+tBodyGyroJerkMeanY
 
     mean of mean over time of body gyroscope jerk in Y axis measurements
 
-tBodyGyroJerk-mean()-Z
+tBodyGyroJerkMeanZ
 
     mean of mean over time of body gyroscope jerk in Z axis measurements
 
-tBodyGyroJerk-std()-X
+tBodyGyroJerkStdX
 
     mean of standard deviations of body gyroscope jerk in X axis measurements
 
-tBodyGyroJerk-std()-Y
+tBodyGyroJerkStdY
 
     mean of standard deviations of body gyroscope jerk in Y axis measurements
 
-tBodyGyroJerk-std()-Z
+tBodyGyroJerkStdZ
 
     mean of standard deviations of body gyroscope jerk in Z axis measurements
 
-tBodyAccMag-mean()
+tBodyAccMagMean
 
     mean of mean over time of body accelerometer magnitude measurements
 
-tBodyAccMag-std()
+tBodyAccMagStd
 
     mean of standard deviations of body accelerometer magnitude measurements
 
-tGravityAccMag-mean()
+tGravityAccMagMean
 
     mean of mean over time of gravity accelerometer magnitude measurements
 
-tGravityAccMag-std()
+tGravityAccMagStd
 
     mean of standard deviations of gravity accelerometer magnitude measurements
 
-tBodyAccJerkMag-mean()
+tBodyAccJerkMagMean
 
     mean of mean over time of body jerk accelerometer magnitude measurements
 
-tBodyAccJerkMag-std()
+tBodyAccJerkMagStd
 
     mean of standard deviations of body jerk accelerometer magnitude measurements
 
-tBodyGyroMag-mean()
+tBodyGyroMagMean
 
     mean of mean over time of body gyroscope magnitude measurements
 
-tBodyGyroMag-std()
+tBodyGyroMagStd
 
     mean of standard deviations of body gyroscope magnitude measurements
 
-tBodyGyroJerkMag-mean()
+tBodyGyroJerkMagMean
 
     mean of mean over time of body jerk gyroscope magnitude measurements
 
-tBodyGyroJerkMag-std()
+tBodyGyroJerkMagStd
 
     mean of standard deviations of body jerk gyroscope magnitude measurements
 
-fBodyAcc-mean()-X
+fBodyAccMeanX
 
-    mean of  body linear accelerometer in X axis FFT measurements
+    mean of body linear accelerometer in X axis FFT measurements
 
-fBodyAcc-mean()-Y
+fBodyAccMeanY
 
-    mean of  body linear accelerometer in Y axis FFT measurements
+    mean of body linear accelerometer in Y axis FFT measurements
 
-fBodyAcc-mean()-Z
+fBodyAccMeanZ
 
-    mean of  body linear accelerometer in Z axis FFT measurements
+    mean of body linear accelerometer in Z axis FFT measurements
 
-fBodyAcc-std()-X
+fBodyAccStdX
 
     mean of standard deviations of body linear accelerometer in X axis FFT measurements
 
-fBodyAcc-std()-Y
+fBodyAccStdY
 
     mean of standard deviations of body linear accelerometer in Y axis FFT measurements
 
-fBodyAcc-std()-Z
+fBodyAccStdZ
 
     mean of standard deviations of body linear accelerometer in Z axis FFT measurements
 
-fBodyAcc-meanFreq()-X
+fBodyAccMeanFreqX
 
-    mean of  body accelerometer frequency in X axis measurements
+    mean of body accelerometer frequency in X axis measurements
 
-fBodyAcc-meanFreq()-Y
+fBodyAccMeanFreqY
 
-    mean of  body accelerometer frequency in Y axis measurements
+    mean of body accelerometer frequency in Y axis measurements
 
-fBodyAcc-meanFreq()-Z
+fBodyAccMeanFreqZ
 
-    mean of  body accelerometer frequency in Z axis measurements
+    mean of body accelerometer frequency in Z axis measurements
 
-fBodyAccJerk-mean()-X
+fBodyAccJerkMeanX
 
-    mean of  body accelerometer jerk in X axis measurements
+    mean of body accelerometer jerk in X axis measurements
 
-fBodyAccJerk-mean()-Y
+fBodyAccJerkMeanY
 
-    mean of  body accelerometer jerk in Y axis measurements
+    mean of body accelerometer jerk in Y axis measurements
 
-fBodyAccJerk-mean()-Z
+fBodyAccJerkMeanZ
 
-    mean of  body accelerometer jerk in Z axis measurements
+    mean of body accelerometer jerk in Z axis measurements
 
-fBodyAccJerk-std()-X
+fBodyAccJerkStdX
 
     mean of standard deviations of body accelerometer jerk in X axis measurements
 
-fBodyAccJerk-std()-Y
+fBodyAccJerkStdY
 
     mean of standard deviations of body accelerometer jerk in Y axis measurements
 
-fBodyAccJerk-std()-Z
+fBodyAccJerkStdZ
 
     mean of standard deviations of body accelerometer jerk in Z axis measurements
 
-fBodyAccJerk-meanFreq()-X
+fBodyAccJerkMeanFreqX
 
-    mean of  body accelerometer jerk frequency in X axis measurements
+    mean of body accelerometer jerk frequency in X axis measurements
 
-fBodyAccJerk-meanFreq()-Y
+fBodyAccJerkMeanFreqY
 
-    mean of  body accelerometer jerk frequency in Y axis measurements
+    mean of body accelerometer jerk frequency in Y axis measurements
 
-fBodyAccJerk-meanFreq()-Z
+fBodyAccJerkMeanFreqZ
 
-    mean of  body accelerometer jerk frequency in Z axis measurements
+    mean of body accelerometer jerk frequency in Z axis measurements
 
-fBodyGyro-mean()-X
+fBodyGyroMeanX
 
-    mean of  body gyroscope in X axis measurements
+    mean of body gyroscope in X axis measurements
 
-fBodyGyro-mean()-Y
+fBodyGyroMeanY
 
-    mean of  body gyroscope in Y axis measurements
+    mean of body gyroscope in Y axis measurements
 
-fBodyGyro-mean()-Z
+fBodyGyroMeanZ
 
-    mean of  body gyroscope in Z axis measurements
+    mean of body gyroscope in Z axis measurements
 
-fBodyGyro-std()-X
+fBodyGyroStdX
 
     mean of standard deviations of body gyroscope in X axis measurements
 
-fBodyGyro-std()-Y
+fBodyGyroStdY
 
     mean of standard deviations of body gyroscope in Y axis measurements
 
-fBodyGyro-std()-Z
+fBodyGyroStdZ
 
     mean of standard deviations of body gyroscope in Z axis measurements
 
-fBodyGyro-meanFreq()-X
+fBodyGyroMeanFreqX
 
-    mean of  body gyroscope frequency in X axis measurements
+    mean of body gyroscope frequency in X axis measurements
 
-fBodyGyro-meanFreq()-Y
+fBodyGyroMeanFreqY
 
-    mean of  body gyroscope frequency in Y axis measurements
+    mean of body gyroscope frequency in Y axis measurements
 
-fBodyGyro-meanFreq()-Z
+fBodyGyroMeanFreqZ
 
-    mean of  body gyroscope frequency in Z axis measurements
+    mean of body gyroscope frequency in Z axis measurements
 
-fBodyAccMag-mean()
+fBodyAccMagMean
 
-    mean of  body accelerometer magnitude FFT measurements
+    mean of body accelerometer magnitude FFT measurements
 
-fBodyAccMag-std()
+fBodyAccMagStd
 
     mean of standard deviations of body accelerometer magnitude FFT measurements
 
-fBodyAccMag-meanFreq()
+fBodyAccMagMeanFreq
 
-    mean of  body accelerometer magnitue frequency FFT measurements
-
-fBodyBodyAccJerkMag-mean()
-
-    mean of  body accelerometer jerk magnitude FFT measurements
-
-fBodyBodyAccJerkMag-std()
-
-    mean of standard deviations of body accelerometer jerk magnitude FFT measurements
-
-fBodyBodyAccJerkMag-meanFreq()
-
-    mean of  body accelerometer jerk magnitude frequency FFT measurements
-
-fBodyBodyGyroMag-mean()
-
-    mean of  body body gyroscope magnitude FFT measurements
-
-fBodyBodyGyroMag-std()
-
-    mean of standard deviations of body body gyroscope magnitude FFT measurements
-
-fBodyBodyGyroMag-meanFreq()
-
-    mean of  body body gyroscope magnitude freqency FFT measurements
-
-fBodyBodyGyroJerkMag-mean()
-
-    mean of  body body gyroscope jerk magnitude FFT measurements
-
-fBodyBodyGyroJerkMag-std()
-
-    mean of standard deviations of body body gyroscope jerk magnitude FFT measurements
-
-fBodyBodyGyroJerkMag-meanFreq()
-
-    mean of mean of body body gyroscope jerk magnitude frequency FFT measurements
+    mean of body accelerometer magnitue frequency FFT measurements
 
